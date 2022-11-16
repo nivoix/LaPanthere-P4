@@ -274,6 +274,8 @@ a:hover {
 .row-no-gutters {
     margin-right: 0;
     margin-left: 0;
+    display: flex;
+    justify-content: space-around;
 }
 
 .row.row-no-gutters > [class^="col-"],
@@ -674,9 +676,12 @@ a {
     max-width: 520px;
     margin: auto auto auto auto;
 }
+q{
+    font-size: 15px;
+}
 
 p {
-    font-size: 11px;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
@@ -752,7 +757,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color:rgb(117 100 68 / 70%);
     padding: 40px 40px 40px 40px;
 }
 
@@ -774,7 +779,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #ffffff!important;
 }
 
 .btn-atomic-tangerine {
