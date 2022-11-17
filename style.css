@@ -533,7 +533,8 @@ button {
 
 a[data-lightbox] {
     position: relative;
-    display: block;
+    display: flex;
+    justify-content: center;
     text-align: center;
 }
 
@@ -770,10 +771,6 @@ h4 {
 
 .bgc-white {
     background-color: #FFFFFF;
-}
-
-.bgc-dark-slate-blue {
-    background-color: #364577;
 }
 
 .bgc-atomic-tangerine {
