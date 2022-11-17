@@ -194,7 +194,7 @@ a:hover {
 
 .d-bloc .panel,
 .l-bloc {
-    color: rgba(0, 0, 0, .5);
+    color: rgba(0, 0, 0);
 }
 
 .d-bloc .panel button:hover,
@@ -741,11 +741,12 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: #232323!important;
 }
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    min-width: 290px;
 }
 
 .portfolio-row {
@@ -785,7 +786,7 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #232323!important;
 }
 
 .btn-atomic-tangerine:hover {
