@@ -104,7 +104,6 @@ sub {
 
 img {
     border: 0;
-    width: 100px;
 }
 
 svg:not(:root) {
@@ -7794,6 +7793,8 @@ button.close {
 }
 
 .center-block {
+    width: 100px;
+    height: 100px;
     display: block;
     margin-right: auto;
     margin-left: auto

@@ -303,13 +303,10 @@ a:hover {
 }
 
 .navbar-brand img {
-    max-height: 200px;
+    max-height: 40px;
     margin: 0 5px 0 0;
     display: inline;
-}
-
-.navbar-brand img[src$=svg] {
-    min-width: 100px;
+    width: 217px;
 }
 
 .nav-center .navbar-brand img {
@@ -747,7 +744,8 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
-    min-width: 290px;
+    width: 290px;
+    max-height: 290px;
 }
 
 .portfolio-row {
@@ -956,10 +954,7 @@ h4 {
         -webkit-box-shadow: none;
         box-shadow: none;
     }
-    .navbar-brand img {
-        max-height: 40px;
-        width: auto;
-    }
+    
     .nav-invert .navbar-header {
         float: none;
         width: 100%;
